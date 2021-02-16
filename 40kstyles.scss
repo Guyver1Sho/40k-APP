@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background: Teal;
+}
+
+.box2 {
+    background:turquoise;
+}
+
+.box3 {
+    background: orange;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "box1"
+    "box2"
+}
